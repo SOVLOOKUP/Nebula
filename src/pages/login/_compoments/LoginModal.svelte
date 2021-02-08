@@ -1,4 +1,5 @@
 <script>
+	import { url } from '@roxi/routify';
 </script>
 
 <div class="login">
@@ -6,8 +7,10 @@
     ><img src="favicon.svg" alt="logo" />
     <p style="color:#000000">Welcome to Nebula Graph Analysis</p></center
   >
-
-  <button>Login</button>
+  <a href={$url('/analysis')}>
+    <button>Login</button>
+  </a>
+  
 </div>
 
 <style>
