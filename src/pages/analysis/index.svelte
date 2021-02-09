@@ -4,4 +4,4 @@
     metatags.title = 'Nebula星云面板'
 </script>
 
-<Graph3d/>
+<Graph3d dataURL="demo.json"/>
